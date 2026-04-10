@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+tfplan
+crash.log
+
+# Generated tfvars (contains secrets — passwords in plain text)
+terraform.tfvars
+
+# Keep example tfvars
+!environments/example.tfvars
+
+# Generated outputs
+logs/
+reports/
+keys/
+
+# OS
+.DS_Store
+Thumbs.db
