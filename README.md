@@ -4,11 +4,11 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│              Azure Infra Provisioner                         │
+│              Azure Infra Provisioner                        │
 │                                                             │
 │   User ──► Bash CLI ──► Validate ──► Pre-check Azure        │
 │                                        │                    │
-│                              .tfvars ──► Terraform           │
+│                              .tfvars ──► Terraform          │
 │                                            │                │
 │                                       Azure Cloud           │
 │                                       ├── Resource Group    │
